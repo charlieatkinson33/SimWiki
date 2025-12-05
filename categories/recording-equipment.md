@@ -345,10 +345,10 @@ Recording and reviewing simulation sessions is crucial for effective debriefing.
 - **Storage:** Amazon UK, Scan, Overclockers
 
 ### Compliance
-- GDPR compliance for recordings
-- NHS data protection standards
-- Electrical safety regulations
-- Fire safety considerations
+- **GDPR compliance** for recordings: https://ico.org.uk/for-organisations/
+- **NHS data protection standards**: Consult your Trust's Information Governance team
+- **Electrical safety regulations**: All equipment must be PAT tested annually
+- **Fire safety considerations**: Check materials meet UK fire safety standards (BS EN standards)
 
 ### Support Resources
 - RaspberryPi.org forums

@@ -78,13 +78,12 @@ Modern simulation often requires sophisticated technology, but open-source and c
 
 #### Custom Web Display (Free)
 **Create your own:**
-```html
-<!-- Simple vital signs display -->
+
+**Components:**
 - HTML/CSS for layout
 - JavaScript for updates
 - WebSockets for real-time control
 - Deploy on any device with browser
-```
 
 **Resources:**
 - CodePen templates

@@ -195,7 +195,7 @@ Consumable materials for simulation can add up quickly. These alternatives can s
 - Water
 - Yellow + green food coloring (slight tint)
 - Salt (specific gravity)
-- Ammonia (for smell, careful with quantity)
+- Apple cider vinegar (for mild scent - much safer than ammonia)
 
 ### Vomit Simulation
 

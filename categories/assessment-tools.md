@@ -260,8 +260,8 @@ Effective assessment is crucial for simulation-based education. Commercial asses
 ```
 Learner | Basic Life Support | Advanced Airway | IV Access | Date Completed
 --------|-------------------|-----------------|-----------|----------------
-Smith   | Pass             | Pass            | Not Yet   | 15/10/2025
-Jones   | Pass             | Not Yet         | Pass      | 20/10/2025
+Smith   | Pass             | Pass            | Not Yet   | DD/MM/YYYY
+Jones   | Pass             | Not Yet         | Pass      | DD/MM/YYYY
 ```
 
 #### Notion (Free for Education)

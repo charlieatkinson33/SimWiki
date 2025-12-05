@@ -48,7 +48,7 @@ SimWiki is a community project. Your knowledge and experience can help others cr
 ### Option 1: GitHub (Recommended for Technical Users)
 
 1. **Fork the Repository**
-   - Visit [github.com/charlieatkinson33/SimWiki](https://github.com/charlieatkinson33/SimWiki)
+   - Visit the repository on GitHub
    - Click "Fork" to create your copy
 
 2. **Make Your Changes**

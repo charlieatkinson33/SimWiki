@@ -55,24 +55,6 @@ See our [contribution guide](contribute.md) to get started.
 
 Visit the live site at: **https://charlieatkinson33.github.io/SimWiki/**
 
-## 🛠️ Local Development
-
-To run this site locally:
-
-```bash
-# Install Jekyll (requires Ruby)
-gem install bundler jekyll
-
-# Clone the repository
-git clone https://github.com/charlieatkinson33/SimWiki.git
-cd SimWiki
-
-# Serve locally
-jekyll serve
-
-# Visit http://localhost:4000/SimWiki/
-```
-
 ## 📄 License
 
 This project is licensed under Creative Commons BY-SA 4.0. You're free to use, share, and adapt the content with attribution.

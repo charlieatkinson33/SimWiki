@@ -1,105 +1,95 @@
-# SimWiki Deployment Guide
+# GitHub Pages Setup Instructions
 
-## Quick Start
+This repository is configured to deploy automatically to GitHub Pages.
 
-The SimWiki website is ready to be deployed on GitHub Pages. Follow these steps:
+## Automatic Deployment
 
-### 1. Enable GitHub Pages
+The site will automatically build and deploy when changes are pushed to the `main` or `master` branch.
 
-1. Go to your repository on GitHub: https://github.com/charlieatkinson33/SimWiki
-2. Click on **Settings** (in the top menu)
-3. Scroll down and click on **Pages** (in the left sidebar under "Code and automation")
-4. Under "Build and deployment":
-   - Source: Select **"Deploy from a branch"**
-   - Branch: Select **copilot/create-simulation-alternatives-website**
-   - Folder: Select **/ (root)**
-5. Click **Save**
+## Manual Setup Required (One-Time)
 
-### 2. Wait for Deployment
+To enable GitHub Pages for this repository, the repository owner needs to:
 
-- GitHub Actions will automatically build and deploy your site
-- This typically takes 1-2 minutes
-- You can monitor progress in the "Actions" tab
+1. Go to the repository settings: https://github.com/charlieatkinson33/SimWiki/settings/pages
 
-### 3. Access Your Website
+2. Under "Build and deployment":
+   - **Source**: Select "GitHub Actions"
 
-Once deployed, your website will be available at:
+3. The workflow file `.github/workflows/jekyll-gh-pages.yml` is already configured and will run automatically.
+
+## Viewing the Site
+
+Once deployed, the site will be available at:
 **https://charlieatkinson33.github.io/SimWiki/**
 
-## Website Structure
+## Local Development (Optional)
+
+To test the site locally:
+
+```bash
+# Install Ruby 3.x (if not already installed)
+
+# Install dependencies
+bundle install
+
+# Serve the site locally
+bundle exec jekyll serve
+
+# Visit http://localhost:4000/SimWiki/
+```
+
+## Repository Structure
 
 ```
 SimWiki/
-├── index.html              # Homepage
-├── categories.html         # All categories overview
-├── about.html             # About page
-├── styles.css             # Stylesheet
-├── _config.yml            # GitHub Pages config
-├── README.md              # Repository documentation
-└── categories/            # Category pages
-    ├── task-trainers.html
-    ├── network-cameras.html
-    ├── manikins.html
-    ├── iv-training.html
-    ├── wound-simulation.html
-    ├── av-systems.html
-    ├── monitoring.html
-    ├── environments.html
-    ├── airway-management.html
-    ├── phlebotomy.html
-    ├── control-systems.html
-    └── pediatric.html
+├── _config.yml          # Jekyll configuration
+├── index.md             # Home page
+├── categories.md        # Categories overview
+├── categories/          # Individual category pages
+│   ├── task-trainers.md
+│   ├── manikins.md
+│   ├── recording-equipment.md
+│   ├── assessment-tools.md
+│   ├── consumables.md
+│   ├── monitoring-equipment.md
+│   ├── props-environment.md
+│   └── technology.md
+├── about.md             # About page
+├── contribute.md        # Contribution guide
+├── assets/
+│   └── css/
+│       └── style.scss   # Custom styling
+└── .github/
+    └── workflows/
+        └── jekyll-gh-pages.yml  # GitHub Actions deployment
 ```
 
-## Features
+## Theme
 
-### Completed Pages (with full content)
-- **Task Trainers**: DIY suturing pads, intubation trainers, catheterization models
-- **Network Cameras**: IP camera systems, recording solutions (up to 99% savings)
-- **Manikins**: CPR trainers, high-fidelity simulators, pediatric options
-- **IV Training Aids**: Homemade venipuncture arms and cannulation practice equipment
-- **Wound Simulation**: DIY moulage recipes using household items
-- **Audio/Video Systems**: Budget recording and debriefing setups
+The site uses the Jekyll Slate theme with custom CSS overrides for styling.
 
-### Placeholder Pages (ready for content)
-- Monitoring Equipment
-- Simulation Environments
-- Airway Management
-- Phlebotomy Training
-- Control Systems
-- Pediatric Simulation
+## Editing Content
 
-## Cost Savings Examples
+All content is written in Markdown (.md files). Simply edit the files and commit to update the website.
 
-The website demonstrates significant potential savings:
-- Task trainers: Up to 98% cost reduction
-- Network cameras: Up to 99% savings vs. commercial systems
-- Manikins: Up to 99% with hybrid approaches
-- Complete 4-room simulation center: £50,000-£200,000+ savings
+## Troubleshooting
 
-## Customization
+### Site not building
+- Check the Actions tab for build errors
+- Ensure GitHub Pages is enabled in repository settings
+- Verify the workflow has permissions to deploy
 
-### Adding New Categories
-1. Create a new HTML file in the `categories/` folder
-2. Copy the structure from an existing category page
-3. Update the content with your new category information
-4. Add a link to the new category on `categories.html` and `index.html`
+### Links not working
+- Ensure all internal links use relative paths
+- Check that the `baseurl` in `_config.yml` matches the repository name
 
-### Updating Styling
-- Edit `styles.css` to change colors, fonts, or layout
-- The current theme uses a purple gradient (#667eea to #764ba2)
-
-### Content Updates
-- All pages use simple HTML structure
-- No build process required - just edit and push
-- Changes will be live within minutes after pushing to GitHub
+### Custom CSS not applying
+- Verify `assets/css/style.scss` has front matter (the `---` at the top)
+- Check that the theme is properly imported
 
 ## Support
 
-For issues or questions about the website:
-- Check the GitHub repository for documentation
-- Refer to [GitHub Pages documentation](https://docs.github.com/en/pages)
-
-## License
-
-This project is open source and available for educational use.
+For issues or questions:
+- Open an issue in the repository
+- Check Jekyll documentation: https://jekyllrb.com/docs/
+- GitHub Pages documentation: https://docs.github.com/en/pages

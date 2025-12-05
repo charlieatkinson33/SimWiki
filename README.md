@@ -1,51 +1,97 @@
 # SimWiki - Healthcare Simulation Alternatives
 
-[![Website](https://img.shields.io/badge/website-live-brightgreen)](https://charlieatkinson33.github.io/SimWiki/)
+**Making Healthcare Simulation Accessible and Affordable**
 
-Your comprehensive guide to cost-effective alternatives for healthcare simulation equipment.
+SimWiki is a community-driven resource for finding cost-effective alternatives to expensive healthcare simulation equipment. Created for UK simulation educators, this wiki shares "McGyvering" techniques and creative solutions that can save thousands of pounds while maintaining educational effectiveness.
 
-## About
+## 🎯 What is SimWiki?
 
-SimWiki is a Wikipedia-style resource for finding budget-friendly alternatives to expensive healthcare simulation equipment used in UK medical training. From task trainers to high-fidelity manikins, network cameras to complete AV systems, SimWiki helps simulation educators maximize training quality while minimizing costs.
+A collaborative platform where simulation educators share:
+- DIY alternatives to commercial equipment
+- Step-by-step construction guides
+- Cost comparisons and savings
+- UK-specific supplier information
+- Practical, tested solutions
 
-## What You'll Find
+## 📚 Categories
 
-- **Task Trainers**: DIY alternatives for suturing pads, intubation trainers, and procedural equipment
-- **Manikins**: Budget options from basic CPR trainers to high-fidelity simulation
-- **Network Cameras**: Affordable IP camera systems for recording and observation
-- **IV Training Aids**: Homemade venipuncture and cannulation practice equipment
-- **Wound Simulation**: Cost-effective moulage techniques using everyday materials
-- **AV Systems**: Low-cost recording and debriefing setups
-- **And much more...**
+- **[Task Trainers](categories/task-trainers.md)** - IV arms, suture pads, intubation heads
+- **[Manikins & Simulators](categories/manikins.md)** - Full body trainers and modifications
+- **[Recording Equipment](categories/recording-equipment.md)** - Cameras, audio systems, NVR solutions
+- **[Assessment Tools](categories/assessment-tools.md)** - Digital checklists, evaluation systems
+- **[Consumables & Supplies](categories/consumables.md)** - Fake blood, moulage, medications
+- **[Monitoring Equipment](categories/monitoring-equipment.md)** - Vital signs displays, ECG simulators
+- **[Props & Environment](categories/props-environment.md)** - Room setup, medical equipment props
+- **[Technology & Software](categories/technology.md)** - Control systems, open-source solutions
 
-## Key Features
+## 💰 Potential Savings
 
-- Detailed cost comparisons between industry-standard and budget alternatives
-- Step-by-step DIY instructions
-- UK-specific suppliers and pricing in GBP
-- Practical tips for extending equipment life
-- Real-world considerations for implementation
+| Item | Commercial | DIY Alternative | Savings |
+|------|-----------|-----------------|---------|
+| IV Arm | £1,000 | £35 | 96% |
+| Network Camera System | £8,000 | £500 | 94% |
+| Patient Monitor Display | £5,000 | £200 | 96% |
+| Suture Practice Pad | £20 | £3 | 85% |
+| Complete Sim Center (2 rooms) | £100,000+ | £5,000 | 95% |
 
-## Potential Savings
+## 🚀 Getting Started
 
-Our alternatives can help you save:
-- **Task Trainers**: Up to 98% cost reduction
-- **Network Cameras**: Up to 99% vs. dedicated simulation AV systems
-- **Manikins**: Up to 99% using hybrid approaches
-- **Complete 4-room simulation center**: Save £50,000-£200,000+
+1. Browse the categories relevant to your needs
+2. Review commercial options vs. DIY alternatives
+3. Follow step-by-step guides
+4. Share your own innovations
 
-## Visit the Website
+## 🤝 Contributing
 
-**[https://charlieatkinson33.github.io/SimWiki/](https://charlieatkinson33.github.io/SimWiki/)**
+We welcome contributions from the simulation community! Whether you have:
+- A brilliant DIY technique
+- Cost-saving tips
+- Supplier recommendations
+- Lessons learned from implementation
 
-## Disclaimer
+See our [contribution guide](contribute.md) to get started.
 
-Always ensure any DIY or alternative equipment meets appropriate safety and training standards for your specific use case. Consult with your institution's health and safety officers and ensure compliance with relevant accreditation requirements.
+## 🌐 View the Website
 
-## Contributing
+Visit the live site at: **https://charlieatkinson33.github.io/SimWiki/**
 
-Have a cost-effective simulation solution to share? Contributions are welcome! This is a community resource that grows stronger with shared knowledge.
+## 🛠️ Local Development
 
-## License
+To run this site locally:
 
-This project is open source and available for educational use.
+```bash
+# Install Jekyll (requires Ruby)
+gem install bundler jekyll
+
+# Clone the repository
+git clone https://github.com/charlieatkinson33/SimWiki.git
+cd SimWiki
+
+# Serve locally
+jekyll serve
+
+# Visit http://localhost:4000/SimWiki/
+```
+
+## 📄 License
+
+This project is licensed under Creative Commons BY-SA 4.0. You're free to use, share, and adapt the content with attribution.
+
+## 🔍 About
+
+SimWiki is focused on the UK healthcare simulation context, but the principles and techniques can be adapted globally. We prioritize:
+- Educational effectiveness
+- Safety
+- Cost-effectiveness
+- Sustainability
+- Community collaboration
+
+## 📧 Contact
+
+- Open an issue for questions or suggestions
+- Contribute via pull requests
+- Share your success stories
+
+---
+
+**SimWiki** - Because effective simulation shouldn't require a fortune.

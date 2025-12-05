@@ -1,0 +1,156 @@
+---
+---
+
+/* Custom styles for SimWiki */
+
+/* Category grid on home page */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.category-card {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.category-card h3 {
+  margin-top: 0;
+  color: #0056b3;
+}
+
+.category-card h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.category-card p {
+  margin-bottom: 0;
+  color: #666;
+  font-size: 0.95em;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #dee2e6;
+}
+
+table th {
+  background: #0056b3;
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+table tr:hover {
+  background: #e9ecef;
+}
+
+/* Headers */
+h1 {
+  color: #0056b3;
+  border-bottom: 3px solid #0056b3;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #0056b3;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #0056b3;
+}
+
+a:hover {
+  color: #003d82;
+}
+
+/* Lists */
+ul, ol {
+  line-height: 1.8;
+}
+
+/* Code blocks */
+code {
+  background: #f8f9fa;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+pre {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #0056b3;
+  padding-left: 20px;
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  table {
+    font-size: 0.85em;
+  }
+}

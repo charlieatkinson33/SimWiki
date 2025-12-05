@@ -1,3 +1,22 @@
-theme: jekyll-theme-minimal
-title: SimWiki
-description: Healthcare Simulation Alternatives - Your guide to cost-effective medical training equipment
+title: SimWiki - Healthcare Simulation Alternatives
+description: A community resource for finding affordable alternatives to expensive healthcare simulation equipment
+baseurl: "/SimWiki"
+url: "https://charlieatkinson33.github.io"
+theme: jekyll-theme-slate
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Categories
+    url: /categories
+  - title: About
+    url: /about
+  - title: Contribute
+    url: /contribute

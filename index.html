@@ -8,90 +8,191 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>🏥 SimWiki</h1>
-            <p class="tagline">Your Guide to Affordable Healthcare Simulation Equipment</p>
+        <div class="header-top">
+            <div class="container">
+                <div class="logo-section">
+                    <span class="header-top-logo">SimWiki</span>
+                </div>
+                <div class="user-links">
+                    <a href="contribute.md">Contribute</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="logo-section">
+                    <h1><a href="index.html">🏥 SimWiki</a></h1>
+                </div>
+                <div class="search-box">
+                    <input type="search" placeholder="Search SimWiki..." aria-label="Search">
+                </div>
+            </div>
         </div>
     </header>
 
     <nav>
         <div class="container">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html" class="active">Article</a></li>
                 <li><a href="categories.html">Categories</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="contribute.md">Edit</a></li>
+                <li><a href="#">History</a></li>
             </ul>
         </div>
     </nav>
 
-    <main class="container">
-        <section class="hero">
-            <h2>Welcome to SimWiki</h2>
-            <p>Healthcare simulation equipment doesn't have to break the bank. SimWiki is your comprehensive guide to finding cost-effective alternatives to expensive industry-standard simulation equipment used in UK healthcare training.</p>
-        </section>
+    <div class="main-wrapper">
+        <aside class="sidebar">
+            <h3>Contents</h3>
+            <ul>
+                <li><a href="#welcome">Welcome to SimWiki</a></li>
+                <li><a href="#why">Why SimWiki?</a></li>
+                <li><a href="#categories">Popular Categories</a></li>
+                <li><a href="#get-started">Get Started</a></li>
+            </ul>
+            
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="index.html">Main page</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="about.html">About SimWiki</a></li>
+                <li><a href="contribute.md">How to contribute</a></li>
+            </ul>
 
-        <section class="intro">
-            <h3>Why SimWiki?</h3>
-            <p>Healthcare simulation is essential for training medical professionals, but commercial equipment can be prohibitively expensive. SimWiki provides detailed guides on creating DIY alternatives and sourcing budget-friendly options without compromising on training quality.</p>
-        </section>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="categories/task-trainers.html">Task Trainers</a></li>
+                <li><a href="categories/network-cameras.html">Network Cameras</a></li>
+                <li><a href="categories/manikins.html">Manikins</a></li>
+                <li><a href="categories/monitoring.html">Monitoring</a></li>
+            </ul>
+        </aside>
 
-        <section class="categories-preview">
-            <h3>Popular Categories</h3>
-            <div class="category-grid">
-                <div class="category-card">
-                    <h4>🔧 Task Trainers</h4>
-                    <p>Low-cost alternatives for procedural training equipment</p>
-                    <a href="categories/task-trainers.html" class="btn">Explore →</a>
-                </div>
-                <div class="category-card">
-                    <h4>🎥 Network Cameras</h4>
-                    <p>Affordable video recording and streaming solutions</p>
-                    <a href="categories/network-cameras.html" class="btn">Explore →</a>
-                </div>
-                <div class="category-card">
-                    <h4>🤖 Manikins</h4>
-                    <p>Budget-friendly patient simulation alternatives</p>
-                    <a href="categories/manikins.html" class="btn">Explore →</a>
-                </div>
-                <div class="category-card">
-                    <h4>💉 IV Training Aids</h4>
-                    <p>DIY intravenous access practice equipment</p>
-                    <a href="categories/iv-training.html" class="btn">Explore →</a>
-                </div>
-                <div class="category-card">
-                    <h4>🩺 Wound Simulation</h4>
-                    <p>Cost-effective wound moulage and trauma simulation</p>
-                    <a href="categories/wound-simulation.html" class="btn">Explore →</a>
-                </div>
-                <div class="category-card">
-                    <h4>📊 Monitoring Equipment</h4>
-                    <p>Affordable vital signs monitoring solutions</p>
-                    <a href="categories/monitoring.html" class="btn">Explore →</a>
-                </div>
-                <div class="category-card">
-                    <h4>🎬 Audio/Video Systems</h4>
-                    <p>Low-cost debriefing and recording setups</p>
-                    <a href="categories/av-systems.html" class="btn">Explore →</a>
-                </div>
-                <div class="category-card">
-                    <h4>🏗️ Simulation Environments</h4>
-                    <p>Building realistic clinical spaces on a budget</p>
-                    <a href="categories/environments.html" class="btn">Explore →</a>
-                </div>
-            </div>
-        </section>
+        <main>
+            <section class="hero" id="welcome">
+                <h2>Welcome to SimWiki</h2>
+                <p><strong>SimWiki</strong> is a comprehensive, community-driven resource for finding cost-effective alternatives to expensive <a href="#">healthcare simulation equipment</a>. Healthcare simulation is essential for training medical professionals, but commercial equipment can be prohibitively expensive. This wiki provides detailed guides on creating DIY alternatives and sourcing budget-friendly options without compromising on training quality.</p>
+                <p>Created for UK simulation educators, SimWiki shares "McGyvering" techniques and creative solutions that can save thousands of pounds while maintaining <a href="#">educational effectiveness</a>.</p>
+            </section>
 
-        <section class="cta">
-            <h3>Get Started</h3>
-            <p>Browse our categories to find the equipment alternatives you need for your simulation program.</p>
-            <a href="categories.html" class="btn btn-large">View All Categories</a>
-        </section>
-    </main>
+            <section class="intro" id="why">
+                <h3>Why SimWiki?</h3>
+                <p>Healthcare simulation equipment doesn't have to break the bank. This collaborative platform allows simulation educators to share:</p>
+                <ul>
+                    <li><strong>DIY alternatives</strong> to commercial equipment</li>
+                    <li><strong>Step-by-step construction guides</strong> with detailed instructions</li>
+                    <li><strong>Cost comparisons and savings</strong> - see how much you can save</li>
+                    <li><strong>UK-specific supplier information</strong> for easy sourcing</li>
+                    <li><strong>Practical, tested solutions</strong> from the community</li>
+                </ul>
+                
+                <h4>Potential Savings</h4>
+                <table class="comparison-table">
+                    <tr>
+                        <th>Item</th>
+                        <th>Commercial</th>
+                        <th>DIY Alternative</th>
+                        <th>Savings</th>
+                    </tr>
+                    <tr>
+                        <td>IV Arm</td>
+                        <td class="price">£1,000</td>
+                        <td class="price">£35</td>
+                        <td class="savings">96%</td>
+                    </tr>
+                    <tr>
+                        <td>Network Camera System</td>
+                        <td class="price">£8,000</td>
+                        <td class="price">£500</td>
+                        <td class="savings">94%</td>
+                    </tr>
+                    <tr>
+                        <td>Patient Monitor Display</td>
+                        <td class="price">£5,000</td>
+                        <td class="price">£200</td>
+                        <td class="savings">96%</td>
+                    </tr>
+                    <tr>
+                        <td>Suture Practice Pad</td>
+                        <td class="price">£20</td>
+                        <td class="price">£3</td>
+                        <td class="savings">85%</td>
+                    </tr>
+                    <tr>
+                        <td>Complete Sim Center (2 rooms)</td>
+                        <td class="price">£100,000+</td>
+                        <td class="price">£5,000</td>
+                        <td class="savings">95%</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="categories-preview" id="categories">
+                <h3>Popular Categories</h3>
+                <p>Browse through our comprehensive collection of cost-effective alternatives organized by category:</p>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <h4>🔧 <a href="categories/task-trainers.html">Task Trainers</a></h4>
+                        <p>Low-cost alternatives for procedural training equipment including IV arms, suture pads, and intubation heads</p>
+                    </div>
+                    <div class="category-card">
+                        <h4>🎥 <a href="categories/network-cameras.html">Network Cameras</a></h4>
+                        <p>Affordable video recording and streaming solutions for simulation debriefing</p>
+                    </div>
+                    <div class="category-card">
+                        <h4>🤖 <a href="categories/manikins.html">Manikins</a></h4>
+                        <p>Budget-friendly patient simulation alternatives and manikin modifications</p>
+                    </div>
+                    <div class="category-card">
+                        <h4>💉 <a href="categories/iv-training.html">IV Training Aids</a></h4>
+                        <p>DIY intravenous access practice equipment and training materials</p>
+                    </div>
+                    <div class="category-card">
+                        <h4>🩺 <a href="categories/wound-simulation.html">Wound Simulation</a></h4>
+                        <p>Cost-effective wound moulage and trauma simulation supplies</p>
+                    </div>
+                    <div class="category-card">
+                        <h4>📊 <a href="categories/monitoring.html">Monitoring Equipment</a></h4>
+                        <p>Affordable vital signs monitoring and display solutions</p>
+                    </div>
+                    <div class="category-card">
+                        <h4>🎬 <a href="categories/av-systems.html">Audio/Video Systems</a></h4>
+                        <p>Low-cost debriefing and recording setups for simulation centers</p>
+                    </div>
+                    <div class="category-card">
+                        <h4>🏗️ <a href="categories/environments.html">Simulation Environments</a></h4>
+                        <p>Building realistic clinical spaces on a budget with props and room setup</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta" id="get-started">
+                <h3>Get Started</h3>
+                <p>Browse our categories to find the equipment alternatives you need for your simulation program. Whether you're setting up a new simulation center or looking to expand your existing capabilities, SimWiki has resources to help you do it affordably.</p>
+                <a href="categories.html" class="btn btn-large">View All Categories</a>
+            </section>
+
+            <section>
+                <h3>About This Wiki</h3>
+                <p>SimWiki is focused on the <strong>UK healthcare simulation</strong> context, but the principles and techniques can be adapted globally. We prioritize:</p>
+                <ul>
+                    <li><strong>Educational effectiveness</strong> - alternatives must meet learning objectives</li>
+                    <li><strong>Safety</strong> - all solutions are vetted for participant safety</li>
+                    <li><strong>Cost-effectiveness</strong> - significant savings over commercial options</li>
+                    <li><strong>Sustainability</strong> - environmentally conscious solutions where possible</li>
+                    <li><strong>Community collaboration</strong> - shared knowledge benefits everyone</li>
+                </ul>
+            </section>
+        </main>
+    </div>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 SimWiki - Healthcare Simulation Alternatives. A community resource for cost-effective medical simulation training.</p>
-            <p>Disclaimer: Always ensure any DIY or alternative equipment meets appropriate safety and training standards.</p>
+            <p>This page was last edited on 10 December 2024.</p>
+            <p>Content is available under <a href="#">Creative Commons BY-SA 4.0</a> unless otherwise noted.</p>
+            <p><a href="#">Privacy policy</a> · <a href="about.html">About SimWiki</a> · <a href="#">Disclaimers</a> · <a href="contribute.md">Contribute</a></p>
+            <p class="footer-tagline">SimWiki - Because effective simulation shouldn't require a fortune. Always ensure any DIY or alternative equipment meets appropriate safety and training standards.</p>
         </div>
     </footer>
 </body>

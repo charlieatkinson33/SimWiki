@@ -492,6 +492,17 @@ p {
     line-height: 1.6;
 }
 
+/* Header utility classes */
+.header-top-logo {
+    font-size: 0.9em;
+    color: #54595d;
+}
+
+.footer-tagline {
+    margin-top: 10px;
+    font-style: italic;
+}
+
 /* Code blocks */
 code {
     background-color: #f8f9fa;

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Start a Discussion
+    url: https://github.com/charlieatkinson33/SimWiki/discussions
+    about: Ask questions, share ideas, or discuss simulation techniques with the community
+  - name: ✏️ Edit a Page Directly
+    url: https://github.com/charlieatkinson33/SimWiki
+    about: Click "Edit this page" on any page to suggest changes (easiest for small fixes)
+  - name: 📖 How to Contribute Guide
+    url: https://charlieatkinson33.github.io/SimWiki/how-to-edit
+    about: Step-by-step guide for making your first contribution

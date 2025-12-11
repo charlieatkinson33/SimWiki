@@ -20,3 +20,29 @@ navigation:
     url: /about
   - title: Contribute
     url: /contribute
+  - title: How to Edit
+    url: /how-to-edit
+  - title: Recent Changes
+    url: /recent-changes
+
+# GitHub repository information
+github:
+  repository_url: https://github.com/charlieatkinson33/SimWiki
+  repository_name: SimWiki
+  owner_name: charlieatkinson33
+  owner_url: https://github.com/charlieatkinson33
+  is_project_page: true
+
+# Wiki features
+wiki:
+  enable_discussions: true
+  enable_edit_links: true
+  enable_history_links: true
+  show_contributors: true
+
+# Community links
+community:
+  discussions_url: https://github.com/charlieatkinson33/SimWiki/discussions
+  issues_url: https://github.com/charlieatkinson33/SimWiki/issues
+  pulls_url: https://github.com/charlieatkinson33/SimWiki/pulls
+  contributors_url: https://github.com/charlieatkinson33/SimWiki/graphs/contributors

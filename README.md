@@ -2,7 +2,22 @@
 
 **Making Healthcare Simulation Accessible and Affordable**
 
-SimWiki is a community-driven resource for finding cost-effective alternatives to expensive healthcare simulation equipment. Created for UK simulation educators, this wiki shares "McGyvering" techniques and creative solutions that can save thousands of pounds while maintaining educational effectiveness.
+SimWiki is a collaborative wiki (like Wikipedia) where anyone can contribute! Find cost-effective alternatives to expensive healthcare simulation equipment, share your innovations, and help the community save thousands of pounds.
+
+## 🌐 Wiki Features - Anyone Can Edit!
+
+SimWiki works just like MediaWiki (Wikipedia's software) with full collaborative features:
+
+- ✅ **User Accounts** - Free GitHub accounts for all contributors
+- ✅ **Edit Any Page** - Click "Edit this page" to suggest improvements
+- ✅ **Edit History** - Complete version history for every page
+- ✅ **Discussions** - Talk pages for community conversations
+- ✅ **Recent Changes** - Track all wiki activity in real-time
+- ✅ **User Contributions** - Every edit is credited to you
+- ✅ **Watch Pages** - Get notified of changes to pages you care about
+- ✅ **Quality Control** - All changes reviewed before going live
+
+**[Learn How to Edit](how-to-edit.md)** | **[Create Account (Free)](https://github.com/signup)** | **[View Recent Changes](recent-changes.md)**
 
 ## 🎯 What is SimWiki?
 
@@ -43,17 +58,36 @@ A collaborative platform where simulation educators share:
 
 ## 🤝 Contributing
 
-We welcome contributions from the simulation community! Whether you have:
+**Anyone can contribute!** This is a true community wiki where every simulation educator can share their knowledge.
+
+### How to Contribute (3 Easy Steps):
+
+1. **Create a free GitHub account** - Takes 2 minutes: [github.com/signup](https://github.com/signup)
+2. **Click "Edit this page"** on any page you want to improve
+3. **Submit your changes** - We'll review and publish them!
+
+**New to wiki editing?** Check our [step-by-step guide](how-to-edit.md) - no technical experience needed!
+
+**Want to contribute:**
 - A brilliant DIY technique
-- Cost-saving tips
+- Cost-saving tips  
 - Supplier recommendations
 - Lessons learned from implementation
+- Corrections and updates
 
-See our [contribution guide](contribute.md) to get started.
+See our [contribution guide](contribute.md) and [how to edit](how-to-edit.md) to get started.
 
 ## 🌐 View the Website
 
 Visit the live site at: **https://charlieatkinson33.github.io/SimWiki/**
+
+## 📖 Wiki Documentation
+
+- **[How to Edit Pages](how-to-edit.md)** - Complete guide for contributors
+- **[User Accounts Guide](user-accounts.md)** - GitHub account features and setup
+- **[Recent Changes](recent-changes.md)** - Track all wiki activity
+- **[MediaWiki Features](MEDIAWIKI_FEATURES.md)** - How SimWiki compares to MediaWiki
+- **[Setup Guide](SETUP_MEDIAWIKI_FEATURES.md)** - For repository administrators
 
 ## 📄 License
 

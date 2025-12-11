@@ -41,9 +41,9 @@ GitHub is a platform used by millions of developers and is free to use.
 ### Step 2: Navigate to the Page You Want to Edit
 
 Browse SimWiki and find the page you want to improve:
-- [Categories](/SimWiki/categories) - Browse all content
+- [Categories]({{ '/categories' | relative_url }}) - Browse all content
 - [Search](https://github.com/charlieatkinson33/SimWiki/search) - Find specific content
-- [Home](/SimWiki/) - Start from the homepage
+- [Home]({{ '/' | relative_url }}) - Start from the homepage
 
 ### Step 3: Click "Edit this page"
 

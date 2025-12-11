@@ -43,10 +43,7 @@ Track all recent edits and contributions to SimWiki. This page works like MediaW
 
 ### By Time Period
 
-GitHub allows filtering by date:
-- [Last 24 hours](https://github.com/charlieatkinson33/SimWiki/commits/main?since=yesterday)
-- [Last week](https://github.com/charlieatkinson33/SimWiki/commits/main?since=1.week.ago)
-- [Last month](https://github.com/charlieatkinson33/SimWiki/commits/main?since=1.month.ago)
+Use GitHub's commit history to view changes by date range. Visit the [commits page](https://github.com/charlieatkinson33/SimWiki/commits/main) and use the date picker to filter by specific dates or time periods.
 
 ### By Author
 

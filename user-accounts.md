@@ -154,11 +154,11 @@ View your SimWiki contributions:
 ### Individual Contribution History
 
 See exactly what you've contributed:
-- [Your commits](https://github.com/charlieatkinson33/SimWiki/commits?author=username)
-- [Your pull requests](https://github.com/charlieatkinson33/SimWiki/pulls?q=author%3Ausername)
-- [Your discussions](https://github.com/charlieatkinson33/SimWiki/discussions?discussions_q=author%3Ausername)
+- [Your commits](https://github.com/charlieatkinson33/SimWiki/commits?author=YOUR_USERNAME)
+- [Your pull requests](https://github.com/charlieatkinson33/SimWiki/pulls?q=author%3AYOUR_USERNAME)
+- [Your discussions](https://github.com/charlieatkinson33/SimWiki/discussions)
 
-(Replace "username" with your GitHub username in URLs above)
+**Note:** Replace "YOUR_USERNAME" with your actual GitHub username in the URLs above. For discussions, filter by your name once on the page.
 
 ---
 
@@ -230,7 +230,7 @@ Each user has a contributions page showing:
 - Code reviews
 - Discussions
 
-Access: `https://github.com/username`
+Access: `https://github.com/YOUR_USERNAME` (replace YOUR_USERNAME with your actual GitHub username)
 
 ### Editing Preferences
 

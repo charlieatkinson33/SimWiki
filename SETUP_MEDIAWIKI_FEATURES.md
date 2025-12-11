@@ -74,10 +74,10 @@ The following features are already implemented and ready to use:
 4. Enable these settings:
    - ✅ **Require a pull request before merging**
    - ✅ **Require approvals** (set to 1)
-   - ✅ **Dismiss stale pull request approvals when new commits are pushed**
+   - ⚠️ **Dismiss stale pull request approvals when new commits are pushed** (optional - may slow down minor fixes)
    - ✅ **Require status checks to pass before merging** (if you have CI/CD)
    - ✅ **Require conversation resolution before merging**
-   - ✅ **Include administrators** (optional but recommended)
+   - ✅ **Include administrators** (optional but recommended for consistency)
 
 5. Click "Create" or "Save changes"
 

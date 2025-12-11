@@ -192,9 +192,8 @@
         <div class="wiki-footer">
           <p>
             {% if page.path %}
-            This page was last modified on {{ site.time | date: "%d %B %Y" }}.
-            <a href="{{ site.github.repository_url }}/commits/main/{{ page.path }}">View full history</a> |
-            <a href="{{ site.github.repository_url }}/graphs/contributors">Contributors</a>
+            <a href="{{ site.github.repository_url }}/commits/main/{{ page.path }}">View page history</a> to see recent changes |
+            <a href="{{ site.github.repository_url }}/graphs/contributors">All contributors</a>
             {% endif %}
           </p>
           <p>

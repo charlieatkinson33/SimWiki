@@ -1,0 +1,103 @@
+name: Content Suggestion
+description: Suggest new DIY alternatives or improvements to existing content
+title: "[Content]: "
+labels: ["content-suggestion", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to SimWiki! 
+        
+        If you want to **edit an existing page**, it's easier to click "Edit this page" on that page instead.
+        
+        Use this form to suggest **new content** or **major changes**.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this relate to?
+      options:
+        - Task Trainers
+        - Manikins & Simulators
+        - Recording Equipment
+        - Assessment Tools
+        - Consumables & Supplies
+        - Monitoring Equipment
+        - Props & Environment
+        - Technology & Software
+        - General/Other
+    validations:
+      required: true
+
+  - type: input
+    id: item-name
+    attributes:
+      label: Item/Topic Name
+      description: What equipment or topic are you suggesting?
+      placeholder: e.g., "DIY Arterial Line Trainer"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the DIY alternative or content you're suggesting
+      placeholder: |
+        - What is it?
+        - How is it made?
+        - What does it cost?
+        - What commercial product does it replace?
+    validations:
+      required: true
+
+  - type: textarea
+    id: materials
+    attributes:
+      label: Materials List (if applicable)
+      description: List materials needed with approximate costs
+      placeholder: |
+        - Item 1 - £10 from Supplier X
+        - Item 2 - £5 from Supplier Y
+
+  - type: textarea
+    id: cost-comparison
+    attributes:
+      label: Cost Comparison
+      description: How much does this save vs commercial option?
+      placeholder: |
+        Commercial: £500
+        DIY: £30
+        Savings: 94%
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Anything else we should know? Photos, links, instructions?
+      placeholder: |
+        - Safety considerations
+        - UK-specific suppliers
+        - Links to resources
+        - Photos (upload below)
+
+  - type: checkboxes
+    id: contribution-type
+    attributes:
+      label: Contribution Type
+      options:
+        - label: I have built/tested this myself
+        - label: I can provide photos/videos
+        - label: I can write the full guide
+        - label: This is an idea I'd like others to explore
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      options:
+        - label: I agree to license my contribution under CC BY-SA 4.0
+          required: true
+        - label: This content does not violate any copyrights
+          required: true

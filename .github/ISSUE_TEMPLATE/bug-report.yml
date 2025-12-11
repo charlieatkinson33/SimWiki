@@ -1,0 +1,65 @@
+name: Bug Report
+description: Report errors, broken links, or incorrect information
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue! This helps keep SimWiki accurate and useful.
+        
+        **For small fixes** (typos, minor updates), it's faster to click "Edit this page" and fix it yourself!
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Type of Issue
+      description: What kind of problem are you reporting?
+      options:
+        - Incorrect information
+        - Broken link
+        - Typo or grammar error
+        - Outdated pricing
+        - Missing information
+        - Formatting problem
+        - Image not loading
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: Which page has the issue?
+      placeholder: https://charlieatkinson33.github.io/SimWiki/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: Clear description of the issue
+      placeholder: Describe what's incorrect or not working
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it be?
+      description: If you know the correct information, please share it
+      placeholder: |
+        Current: Says £50
+        Correct: Should be £75 (updated pricing as of 2024)
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Anything else that might help?
+      placeholder: |
+        - Screenshots
+        - Links to sources
+        - Context about the issue

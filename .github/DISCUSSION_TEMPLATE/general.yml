@@ -1,0 +1,20 @@
+labels: ["discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for starting a discussion! This is the place to:
+        - Ask questions about the wiki content
+        - Propose new ideas or pages
+        - Discuss simulation techniques
+        - Connect with the community
+        
+        For specific page edits, please click "Edit this page" on the relevant page instead.
+  
+  - type: textarea
+    id: discussion
+    attributes:
+      label: What would you like to discuss?
+      description: Share your thoughts, questions, or ideas with the community
+    validations:
+      required: true
